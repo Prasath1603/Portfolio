@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main Css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Malliprasath's Portfolio</title>
+</head>
+<body>
+    <!-- Header Design -->
+<header class="header">
+    <!-- <a href="" class="logo"><img src="./images/logo.svg" alt="logo"></a> -->
+    <a href="#" class="logo">Portfolio</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+<!-- Home section Design -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hi,Myself</h3>
+        <h1>Malliprasath Sathishkumar</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <!-- <p>Paragraph</p> -->
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/malliprasath-s-60897a269/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/itz_prasath_here/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Prasath1603"><i class="fa-brands fa-github"></i></a>
+            <a href="https://leetcode.com/u/malliprasaths/"><i class="fa-solid fa-code"></i></a>
+        </div>
+        <!-- <a href="" class="btn">Download CV</a> -->
+        <button onclick="downloadFile()" class="btn">Download CV</button>
+    </div>
+    <div class="home-img">
+        <img src="images/profile1.png" alt="Profile Pic">
+    </div>
+</section>
+<!-- About section Design -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="images/profile1.png" alt="Picture">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Software Developer</h3>
+        <p>I am a passionate software engineer with expertise in both frontend 
+            and backend development. With a solid foundation in programming, 
+            I have honed my skills in creating dynamic and responsive web applications.
+             On the frontend, I excel in utilizing modern frameworks and libraries
+              such as React, Angular, and Vue.js to build engaging and user-friendly interfaces.
+               My backend proficiency includes working with Node.js, Python, and Java, allowing 
+               me to develop robust server-side logic and integrate seamlessly with databases like
+                MongoDB, MySQL, and PostgreSQL.</p>
+        <!-- <a href="" class="btn">Read more</a> -->
+         <h3>Programming Languages</h3>
+         <div class="languages">
+            <a href="#about" data-language="SQL" ><i class="fas fa-database"></i></a>
+            <a href="#about" data-language="CSS"><i class="fab fa-css3-alt"></i></a>
+            <a href="#about" data-language="HTML"><i class="fab fa-html5"></i></a>
+            <a href="#about" data-language="C/C++"><i class="fas fa-code"></i></a>
+            <a href="#about" data-language="PYTHON"><i class="fab fa-python"></i></a>
+            <a href="#about" data-language="JAVA"><i class="fab fa-java"></i></a>
+         </div>
+    </div>
+</section>
+<!-- Service Section -->
+ <section class="services" id="services">
+    <h2 class="heading"> My <span>Services</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Development</h3>
+            <!-- <p>Paragraph</p> -->
+            <a href="" class="btn">Read more</a>
+        </div>
+
+        <div class="services-box">
+            <i class="fa-solid fa-computer"></i>
+            <h3>Software Development</h3>
+            <!-- <p>Paragraph</p> -->
+            <a href="" class="btn">Read more</a>
+        </div>
+
+        <div class="services-box">
+            <i class="fa-brands fa-android"></i>
+            <h3>Application Development</h3>
+            <!-- <p>Paragraph</p> -->
+            <a href="" class="btn">Read more</a>
+        </div>
+    </div>
+ </section>
+ <!-- Portfolio section Design -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="./images/p1.png" alt="Project1">
+            <div class="portfolio-layer">
+                <h4>Inventory Management System</h4>
+                <p>Created a Inventory Management System using java and DBMS with
+                    help of SpringBoot.
+                </p>
+                <a href="https://github.com/Prasath1603/StockyTech"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./images/p21.png" alt="Project2">
+            <div class="portfolio-layer">
+                <h4>Hotel Management System</h4>
+                <p>Created a Hotel Management System using java and DBMS
+                    to Manage Rooms and Customer.
+                </p>
+                <a href="https://github.com/Prasath1603/717822P130"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./images/p3.png" alt="Project2">
+            <div class="portfolio-layer">
+                <h4>Portfolio</h4>
+                <p>Created a portfolio using HTML,CSS and Javascript</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact section Design -->
+ <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="text" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+ </section>
+ <!-- Footer Design -->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by @malliprasaths | All Rights Reserved.   <i class="fa-solid fa-phone-volume"></i><a href="tel:+91 9514346150" class="tel" style="text-decoration: none; color: #fff;">+91 9514346150</a></p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+<!-- Scroll reveal js -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!-- Typed js -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!-- Main js -->
+    <script src="main.js"></script>
+<!-- Download resume js -->
+<script>
+    function downloadFile() {
+        // var fileUrl = 'https://drive.google.com/uc?export=download&id=1ABKQSbkVLVJ_EYgHBSuZnk_E3_W6GaxP';
+        var fileUrl = 'https://drive.google.com/uc?export=download&id=1Xb9GK2SXkw7lhXwpqCvJ8FDvrdSOLxcE';
+        var a = document.createElement('a');
+        a.href = fileUrl;
+        a.download = 'resume.pdf'; // Set the desired filename here
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }
+    </script>
+</body>
+</html>
