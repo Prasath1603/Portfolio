@@ -358,15 +358,11 @@
       //   a.click();
       //   document.body.removeChild(a);
       // }
-        function downloadFile() {
-          var fileUrl = "https://drive.google.com/uc?export=download&id=1HfgAignDYdXNTeGrHq9hWgeXvcij6dH8";
-          var a = document.createElement("a");
-          a.href = fileUrl;
-          a.download = "resume.pdf"; // Set the desired filename
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-        }
+function downloadFile() {
+  // Your actual shared link
+  var fileUrl = "https://drive.google.com/file/d/1HfgAignDYdXNTeGrHq9hWgeXvcij6dH8/view?usp=sharing";
+  window.open(fileUrl, "_blank");
+}
 
     </script>
   </body>
